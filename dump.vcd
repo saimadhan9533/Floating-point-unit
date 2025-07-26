@@ -1,0 +1,265 @@
+$date
+	Mon Jan 06 21:06:50 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb $end
+$var wire 32 ! op [31:0] $end
+$var wire 32 " op0 [31:0] $end
+$var wire 32 # sub1 [31:0] $end
+$var wire 32 $ sr1 [31:0] $end
+$var wire 32 % rem1 [31:0] $end
+$var wire 32 & quo1 [31:0] $end
+$var wire 32 ' mul1 [31:0] $end
+$var wire 32 ( add1 [31:0] $end
+$var reg 3 ) c [2:0] $end
+$var reg 8 * e [7:0] $end
+$var reg 8 + e0 [7:0] $end
+$var reg 23 , m [22:0] $end
+$var reg 23 - m0 [22:0] $end
+$var reg 1 . s $end
+$var reg 1 / s0 $end
+$scope module dut $end
+$var wire 3 0 c [2:0] $end
+$var wire 8 1 e [7:0] $end
+$var wire 8 2 e0 [7:0] $end
+$var wire 23 3 m [22:0] $end
+$var wire 23 4 m0 [22:0] $end
+$var wire 32 5 op [31:0] $end
+$var wire 32 6 op0 [31:0] $end
+$var wire 1 . s $end
+$var wire 1 / s0 $end
+$var wire 32 7 sub [31:0] $end
+$var wire 32 8 sr [31:0] $end
+$var wire 32 9 rem [31:0] $end
+$var wire 32 : quo [31:0] $end
+$var wire 32 ; mul [31:0] $end
+$var wire 32 < add [31:0] $end
+$var reg 32 = add1 [31:0] $end
+$var reg 32 > mul1 [31:0] $end
+$var reg 32 ? quo1 [31:0] $end
+$var reg 32 @ rem1 [31:0] $end
+$var reg 32 A sr1 [31:0] $end
+$var reg 32 B sub1 [31:0] $end
+$scope module a1 $end
+$var wire 8 C e [7:0] $end
+$var wire 8 D e0 [7:0] $end
+$var wire 23 E m [22:0] $end
+$var wire 23 F m0 [22:0] $end
+$var wire 32 G op [31:0] $end
+$var wire 32 H op0 [31:0] $end
+$var wire 1 . s $end
+$var wire 1 / s0 $end
+$var reg 32 I add [31:0] $end
+$scope module n1 $end
+$var wire 8 J exponent [7:0] $end
+$var wire 23 K mantissa [22:0] $end
+$var wire 1 . sign $end
+$var reg 32 L operand [31:0] $end
+$upscope $end
+$scope module n2 $end
+$var wire 8 M exponent [7:0] $end
+$var wire 23 N mantissa [22:0] $end
+$var wire 1 / sign $end
+$var reg 32 O operand [31:0] $end
+$upscope $end
+$upscope $end
+$scope module d1 $end
+$var wire 8 P e [7:0] $end
+$var wire 8 Q e0 [7:0] $end
+$var wire 23 R m [22:0] $end
+$var wire 23 S m0 [22:0] $end
+$var wire 32 T op [31:0] $end
+$var wire 32 U op0 [31:0] $end
+$var wire 1 . s $end
+$var wire 1 / s0 $end
+$var reg 32 V quo [31:0] $end
+$var reg 32 W rem [31:0] $end
+$scope module n7 $end
+$var wire 8 X exponent3 [7:0] $end
+$var wire 23 Y mantissa3 [22:0] $end
+$var wire 1 . sign3 $end
+$var reg 32 Z operand3 [31:0] $end
+$upscope $end
+$scope module n8 $end
+$var wire 8 [ exponent3 [7:0] $end
+$var wire 23 \ mantissa3 [22:0] $end
+$var wire 1 / sign3 $end
+$var reg 32 ] operand3 [31:0] $end
+$upscope $end
+$upscope $end
+$scope module mm $end
+$var wire 8 ^ e [7:0] $end
+$var wire 8 _ e0 [7:0] $end
+$var wire 23 ` m [22:0] $end
+$var wire 23 a m0 [22:0] $end
+$var wire 32 b op [31:0] $end
+$var wire 32 c op0 [31:0] $end
+$var wire 1 . s $end
+$var wire 1 / s0 $end
+$var reg 32 d mul [31:0] $end
+$scope module n5 $end
+$var wire 8 e exponent2 [7:0] $end
+$var wire 23 f mantissa2 [22:0] $end
+$var wire 1 . sign2 $end
+$var reg 32 g operand2 [31:0] $end
+$upscope $end
+$scope module n6 $end
+$var wire 8 h exponent2 [7:0] $end
+$var wire 23 i mantissa2 [22:0] $end
+$var wire 1 / sign2 $end
+$var reg 32 j operand2 [31:0] $end
+$upscope $end
+$upscope $end
+$scope module ss $end
+$var wire 8 k e [7:0] $end
+$var wire 23 l m [22:0] $end
+$var wire 32 m op [31:0] $end
+$var wire 1 . s $end
+$var reg 32 n sr [31:0] $end
+$scope module n9 $end
+$var wire 8 o exponent4 [7:0] $end
+$var wire 23 p mantissa4 [22:0] $end
+$var wire 1 . sign4 $end
+$var reg 32 q operand4 [31:0] $end
+$upscope $end
+$upscope $end
+$scope module ss1 $end
+$var wire 8 r e [7:0] $end
+$var wire 8 s e0 [7:0] $end
+$var wire 23 t m [22:0] $end
+$var wire 23 u m0 [22:0] $end
+$var wire 32 v op [31:0] $end
+$var wire 32 w op0 [31:0] $end
+$var wire 1 . s $end
+$var wire 1 / s0 $end
+$var reg 32 x sub [31:0] $end
+$scope module n3 $end
+$var wire 8 y exponent1 [7:0] $end
+$var wire 23 z mantissa1 [22:0] $end
+$var wire 1 . sign1 $end
+$var reg 32 { operand1 [31:0] $end
+$upscope $end
+$scope module n4 $end
+$var wire 8 | exponent1 [7:0] $end
+$var wire 23 } mantissa1 [22:0] $end
+$var wire 1 / sign1 $end
+$var reg 32 ~ operand1 [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1011001101101111100110010011011 ~
+b1101111100110010011011 }
+b10110011 |
+b10110101110111011001110001010010 {
+b10111011001110001010010 z
+b1101011 y
+b1011100001001011100111110110111 x
+b1011001101101111100110010011011 w
+b10110101110111011001110001010010 v
+b1101111100110010011011 u
+b10111011001110001010010 t
+b10110011 s
+b1101011 r
+b10110101110111011001110001010010 q
+b10111011001110001010010 p
+b1101011 o
+b1101011111000110 n
+b10110101110111011001110001010010 m
+b10111011001110001010010 l
+b1101011 k
+b1011001101101111100110010011011 j
+b1101111100110010011011 i
+b10110011 h
+b10110101110111011001110001010010 g
+b10111011001110001010010 f
+b1101011 e
+b11110110010111001111110110100110 d
+b1011001101101111100110010011011 c
+b10110101110111011001110001010010 b
+b1101111100110010011011 a
+b10111011001110001010010 `
+b10110011 _
+b1101011 ^
+b1011001101101111100110010011011 ]
+b1101111100110010011011 \
+b10110011 [
+b10110101110111011001110001010010 Z
+b10111011001110001010010 Y
+b1101011 X
+b10011011100000001100011100 W
+b10 V
+b1011001101101111100110010011011 U
+b10110101110111011001110001010010 T
+b1101111100110010011011 S
+b10111011001110001010010 R
+b10110011 Q
+b1101011 P
+b1011001101101111100110010011011 O
+b1101111100110010011011 N
+b10110011 M
+b10110101110111011001110001010010 L
+b10111011001110001010010 K
+b1101011 J
+b1111100101010110100011101101 I
+b1011001101101111100110010011011 H
+b10110101110111011001110001010010 G
+b1101111100110010011011 F
+b10111011001110001010010 E
+b10110011 D
+b1101011 C
+b0 B
+b0 A
+b0 @
+b0 ?
+b0 >
+b0 =
+b1111100101010110100011101101 <
+b11110110010111001111110110100110 ;
+b10 :
+b10011011100000001100011100 9
+b1101011111000110 8
+b1011100001001011100111110110111 7
+b1011001101101111100110010011011 6
+b10110101110111011001110001010010 5
+b1101111100110010011011 4
+b10111011001110001010010 3
+b10110011 2
+b1101011 1
+bz 0
+0/
+1.
+b1101111100110010011011 -
+b10111011001110001010010 ,
+b10110011 +
+b1101011 *
+b0 )
+b0 (
+b0 '
+b0 &
+b0 %
+b0 $
+b0 #
+b1011001101101111100110010011011 "
+b10110101110111011001110001010010 !
+$end
+#10
+b1 )
+#20
+b10 )
+#30
+b11 )
+#40
+b100 )
+#50
